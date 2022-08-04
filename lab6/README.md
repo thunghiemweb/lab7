@@ -1,4 +1,4 @@
-# Lab 7
+ # Lab 06
 
 Nội dung bài tập thực hành:
 
@@ -8,42 +8,29 @@ Hãy làm các bài lab theo link dưới đây và đảm bảo rằng bạn s�
 
 Học viên vào link Video trên Coursera để xem chi tiết yêu cầu của bài lab, bản dịch đính kèm chỉ hỗ trợ dịch text.
 
-Lab (Video): Setting up a Server using json-server
-https://www.coursera.org/learn/front-end-react/lecture/o8ih6/exercise-video-setting-up-a-server-using-json-server
+1
+Lab (Video): Controlled Forms
+https://www.coursera.org/learn/front-end-react/lecture/2AfDn/exercise-video-controlled-forms
 
-Lab (tài liệu hướng dẫn): Setting up a Server using json-server
-https://www.coursera.org/learn/front-end-react/supplement/I1qo9/exercise-instructions-setting-up-a-server-using-json-server
+Lab (tài liệu hướng dẫn): Controlled Forms 
+https://www.coursera.org/learn/front-end-react/supplement/oHw3Z/exercise-instructions-controlled-forms
+Lưu ý: nếu giao diện bị lệch thì có thể dùng CSS để chỉnh lại nếu cần.
 
+2.
+Lab (Video): Controlled Form Validation
+https://www.coursera.org/learn/front-end-react/lecture/ezz4V/exercise-video-controlled-form-validation
 
-Lab (Video): Fetch from Server
-https://www.coursera.org/learn/front-end-react/lecture/NiTcd/exercise-video-fetch-from-server
+Exercise (hướng dẫn): Controlled Form Validation 
+https://www.coursera.org/learn/front-end-react/supplement/9GSIO/exercise-instructions-controlled-form-validation
 
+3.
+Lab (Video): Uncontrolled Forms
+https://www.coursera.org/learn/front-end-react/lecture/PENVh/exercise-video-uncontrolled-forms
 
-Lab (tài liệu hướng dẫn): Fetch from ServerLab (Video): Fetch Handling Errors 
-https://www.coursera.org/learn/front-end-react/supplement/lXvuA/exercise-instructions-fetch-from-server
+Lab (tài liệu hướng dẫn): Uncontrolled Forms 
+https://www.coursera.org/learn/front-end-react/supplement/Q3UOZ/exercise-instructions-uncontrolled-forms
 
-
-
-Ở dòng này của file MainComponent cần sửa lại thành dishesErrMess thay vì là dishErrMess nếu không sẽ gây ra lỗi ở lab09_3 phía dưới.
-File preview
-
-
-Lab_(Video): Fetch Handling Errors | Coursera
-https://www.coursera.org/learn/front-end-react/lecture/hulCn/exercise-video-fetch-handling-errors
-
-
-Lab (tài liệu hướng dẫn): Fetch Handling Errors 
-https://www.coursera.org/learn/front-end-react/supplement/X9VVn/exercise-instructions-fetch-handling-errors
-
-
-
-Lab (Video): Fetch Post Comment
-https://www.coursera.org/learn/front-end-react/lecture/SLc2y/exercise-video-fetch-post-comment
-
-
-Lab (tài liệu hướng dẫn): Fetch Post Comment 
-https://www.coursera.org/learn/front-end-react/supplement/J1zTN/exercise-instructions-fetch-post-comment
-
+Thời lượng làm bài dự kiến: 150 phút
 
 
 cd lab
@@ -62,11 +49,3 @@ git commit -m "ghi chú commit"
 
 
 div className="jumbotron"
-
-
-npm install json-server -g
-
-json-server --watch db.json -p 3001 -d 2000
-
--d 2000 là delay 2s
--p 3001 cổng chạy

@@ -14,6 +14,9 @@ import { COMMENTS } from '../shared/comments';
 import { PROMOTIONS } from '../shared/promotions';
 import { LEADERS } from '../shared/leaders';
 
+import { baseUrl } from '../shared/baseUrl';
+
+
 
 class Main extends Component {
 
@@ -26,6 +29,16 @@ class Main extends Component {
             promotions: PROMOTIONS,
             leaders: LEADERS
         };
+
+        // lấy dữ liệu từ json server để hiển thị khi nhận thành công
+        fetch(baseUrl + 'dishes')
+            .then(response => response.json())
+            .then(json => {
+                console.log(json);
+                this.setState({ dishes: json });
+            })
+
+
     }
 
     onDishSelect(dishID) {
